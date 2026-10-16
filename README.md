@@ -74,7 +74,7 @@ Modelo fuente: [`modelo/proyecto.archimate`](modelo/proyecto.archimate) (un úni
 | La dispensación ya está en el sistema hospitalario, sin lote | **La dispensación sigue allí**; nuestro software recibe cada salida y la descuenta del lote correcto | No se puede modificar ese sistema |
 | Ante un retiro del INVIMA: ubicar, rastrear pacientes, devolver, responder | **Solo retener el lote** en todas sus ubicaciones | El resto lo hace farmacovigilancia |
 
-Descartamos, entre otros, el control especial, la cadena de frío, los residuos, la farmacovigilancia, el SISMED, la facturación y el censo de camas (§4). Las normas que citó el experto quedaron marcadas para verificar (§6).
+Descartamos, entre otros, el control especial, la cadena de frío, los residuos, la farmacovigilancia, el SISMED, la facturación y el censo de camas (§4). Verificamos en fuentes oficiales las normas que usamos (§6): la Resolución 1403 de 2007 respalda el FEFO, y la Resolución 1732 de 2026 que citó el experto fue revocada, así que la habilitación sigue en la Resolución 3100 de 2019.
 
 ---
 
@@ -804,11 +804,11 @@ No se modificó ni se borró nada de las fases anteriores.
 <a id="s10"></a>
 ## 10. Tabla de aportes
 
-> Por completar por el equipo. La columna "Commits" se tomó del historial del repositorio al 2026-10-15.
+Cada aporte se puede verificar en el historial del repositorio (enlace en cada commit) o en *Insights → Contributors* de GitHub. Historial al 2026-10-15.
 
 | Integrante | Qué construyó | Commits |
 |---|---|---|
-| Miguel Moreno (`mig006`) | Estructura del repositorio, rúbrica, Fase 0 (entrevista), Fase 1 (V1–V3), Fase 5 (V8, V9) y V10 | Creación de estructura, rúbrica, desarrollo inicial fase 0, modelo y vistas de fase 1, desarrollo de fase 5, desarrollo de vista 10 |
-| Juan Esteban | Fase 2: descomposición de servicios, capa anticorrupción y contratos (V4–V4.5) | Actualizar el modelo con la fase 2 |
-| Abel García | Fase 3 (V5, V7, V7.1) y Fase 4 | Desarrollo fase 3, desarrollo fase 4 |
-| Juan José Mesa | Fase 4 (V6.x) y Fase 6 (V11) | Fase 4: ArchiMate, bounded context canvas (V11) |
+| Miguel Moreno (`mig006`) | Estructura del repositorio y rúbrica; Fase 0 (guion, instrucción de rol, entrevista y análisis de hallazgos); Fase 1 (V1–V3); Fase 5 (V8, V9); V10 | [`28e765b`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/28e765b) · [`d52ced5`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/d52ced5) · [`8fb2bc7`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/8fb2bc7) · [`0c8c471`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/0c8c471) · [`59d2e32`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/59d2e32) · [`4c63927`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/4c63927) · [`0f5f6c3`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/0f5f6c3) · [`73a058d`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/73a058d) |
+| Juan Esteban | Fase 2 (V4–V4.5: descomposición de servicios, capa anticorrupción y 27 contratos); ajustes visuales de la V8; exportación de las vistas; README principal | [`4e5b31e`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/4e5b31e) · [`edde3e2`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/edde3e2) · [`3e77b93`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/3e77b93) · [`711e423`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/711e423) |
+| Abel García | Fase 3 (V5, V7, V7.1); Fase 4 en el modelo (V6.1–V6.4) | [`bd74f0b`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/bd74f0b) · [`4b58d0a`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/4b58d0a) |
+| Juan José Mesa | Fase 6: Bounded Context Canvas (V11) y su sección del README | [`b440632`](https://github.com/mig006/Reto_Arquitectura_ArchiMate/commit/b440632) |

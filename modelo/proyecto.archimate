@@ -1,76 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="proyecto" id="id-44ab65ef566c472781aeacd78c2d194c" version="5.0.0">
   <folder name="Strategy" id="id-c3d789241a594a9e82023585f7514085" type="strategy">
-    <element xsi:type="archimate:Capability" name="Direccionamiento estratégico" id="id-5584becd5e3d4dc4ab9f9cf16d8f63f4"/>
-    <element xsi:type="archimate:Capability" name="Gestión de calidad y acreditación" id="id-dae260a161ec4520a89344803b964def"/>
-    <element xsi:type="archimate:Capability" name="Gestión del riesgo y seguridad del paciente" id="id-bfa9a405af4240209fc7364ea41f3388"/>
-    <element xsi:type="archimate:Capability" name="Atención de urgencias" id="id-8a0a5985675b43b096968b91c8a34437"/>
-    <element xsi:type="archimate:Capability" name="Atención quirúrgica" id="id-5d1c166cb5ae4460ad366e44584b6d07"/>
-    <element xsi:type="archimate:Capability" name="Hospitalización" id="id-a36340837db745029c79cab74d68b7c5"/>
-    <element xsi:type="archimate:Capability" name="Consulta externa" id="id-790b9e26c97a46449715abcff2c713a8"/>
-    <element xsi:type="archimate:Capability" name="Servicio farmacéutico" id="id-5b753523f34a4022b20ecf6c94e16675"/>
-    <element xsi:type="archimate:Capability" name="Laboratorio clínico" id="id-e92842f6a38248aaa89db90a5e950097"/>
-    <element xsi:type="archimate:Capability" name="Imágenes diagnósticas" id="id-e4bfb2d7022f47d384d6c13f7521682c"/>
-    <element xsi:type="archimate:Capability" name="Esterilización" id="id-dd970e6fe0af40bc84416172f1763d4b"/>
+    <element xsi:type="archimate:Capability" name="Direccionamiento estratégico" id="id-5584becd5e3d4dc4ab9f9cf16d8f63f4">
+      <documentation>Definir la estrategia, la planeación y el seguimiento de la gestión del hospital. Macroproceso estratégico; la aplicación no la impacta. Fuente: entrevista 1.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Gestión de calidad y acreditación" id="id-dae260a161ec4520a89344803b964def">
+      <documentation>Habilitación, acreditación y planes de mejora, como el que dejó el hallazgo de la Secretaría de Salud en el carro de paro. Macroproceso estratégico; la aplicación no la impacta directamente. Fuente: entrevista 1.1 y 1.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Gestión del riesgo y seguridad del paciente" id="id-bfa9a405af4240209fc7364ea41f3388">
+      <documentation>Identificar y reducir los riesgos de la atención, incluidos los eventos adversos con medicamentos. Macroproceso estratégico; la aplicación no la impacta directamente.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Atención de urgencias" id="id-8a0a5985675b43b096968b91c8a34437">
+      <documentation>Atención las 24 horas, unas 7.500 atenciones al mes. Es la fuente de la demanda no programada: consume de la satélite de urgencias y de los carros de paro. Fuente: entrevista 1.1 y 3.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Atención quirúrgica" id="id-5d1c166cb5ae4460ad366e44584b6d07">
+      <documentation>8 quirófanos y unas 950 cirugías al mes (700 programadas y 250 de urgencia). Es la principal fuente de la demanda programada: agenda quirúrgica × paquetes por cirugía. Fuente: entrevista 1.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Hospitalización" id="id-a36340837db745029c79cab74d68b7c5">
+      <documentation>280 camas, 28 de ellas de UCI. Su consumo depende de la ocupación; hoy no se cruza con el censo de camas, que quedó como mejora futura (análisis §4). Fuente: entrevista 1.1 y 5.2.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Consulta externa" id="id-790b9e26c97a46449715abcff2c713a8">
+      <documentation>Atención ambulatoria. La farmacia ambulatoria que la atiende se trata como una ubicación más de la farmacia (análisis §3). Fuente: entrevista 1.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Servicio farmacéutico" id="id-5b753523f34a4022b20ecf6c94e16675">
+      <documentation>Capacidad donde se ubica la aplicación. Farmacia central, satélites de cirugía, urgencias y UCI, farmacia ambulatoria, stocks de piso y carros de paro; unas 1.150 referencias, inventario de $4.200 M y compras de $2.300 M al mes. Sirve a la etapa Tratar al paciente del flujo de valor. Fuente: entrevista 1.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Laboratorio clínico" id="id-e92842f6a38248aaa89db90a5e950097">
+      <documentation>Exámenes de laboratorio. Capacidad de apoyo diagnóstico; la aplicación no la impacta. Fuente: entrevista 1.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Imágenes diagnósticas" id="id-e4bfb2d7022f47d384d6c13f7521682c">
+      <documentation>Estudios de imagen. Capacidad de apoyo diagnóstico; la aplicación no la impacta. Fuente: entrevista 1.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Esterilización" id="id-dd970e6fe0af40bc84416172f1763d4b">
+      <documentation>Esterilización de instrumental y dispositivos para cirugía. Capacidad de apoyo terapéutico; la aplicación no la impacta.</documentation>
+    </element>
     <element xsi:type="archimate:Capability" name="Planeación de la demanda de medicamentos" id="id-2509cbf4bf714b59b7b46079323ddbe9">
+      <documentation>Estimar qué y cuánto se va a necesitar, separando la demanda programada de la no programada. Hoy se hace con el consumo promedio de 3 a 6 meses en Excel, sin separar las dos demandas. Impactada: realiza R3. Fuente: entrevista 5.2.</documentation>
       <property key="impactada" value="sí"/>
     </element>
     <element xsi:type="archimate:Capability" name="Gestión de inventario por lote" id="id-ec6d4c437a70408995489f70855d243e">
+      <documentation>Saber qué lote hay, cuánto, dónde y con qué vencimiento, y registrar cada movimiento con su lote. Hoy el lote solo se registra al recibir. Impactada: realiza R1. Es lo primero que pide el experto. Fuente: entrevista 1.3 y 8.2.</documentation>
       <property key="impactada" value="sí"/>
     </element>
     <element xsi:type="archimate:Capability" name="Vigilancia de vencimientos" id="id-487226b9affc4836a716025a2ae8942a">
+      <documentation>Detectar a tiempo los lotes próximos a vencer y decidir qué hacer: priorizar, trasladar, apartar, frenar la compra, canjear o dar de baja. Hoy es una revisión física mensual con semáforo y Excel. Impactada: realiza R2. Fuente: entrevista 1.3 y 5.1.</documentation>
       <property key="impactada" value="sí"/>
     </element>
     <element xsi:type="archimate:Capability" name="Generación de requerimientos de compra" id="id-bf32115555fd4a34a32159fc650dda81">
+      <documentation>Calcular y aprobar qué y cuánto comprar para enviarlo a compras. Hoy es un Excel mensual de unas 600 líneas que va por correo. Impactada: realiza R4. Fuente: entrevista 5.3.</documentation>
       <property key="impactada" value="sí"/>
     </element>
-    <element xsi:type="archimate:Capability" name="Recepción técnica" id="id-d8a4439a019b4a188c24fa9ebd15417a"/>
-    <element xsi:type="archimate:Capability" name="Almacenamiento" id="id-3eb16f01f37c485e950f98ee9b013c2b"/>
-    <element xsi:type="archimate:Capability" name="Distribución y dispensación" id="id-e1a0f5e699024e468654dbf7b571bd15"/>
-    <element xsi:type="archimate:Capability" name="Farmacovigilancia" id="id-cf07b70e606546baba18c92d96f4e23f"/>
-    <element xsi:type="archimate:Capability" name="Compras y gestión de proveedores" id="id-23b11a68cea342b0a24b152459e91804"/>
-    <element xsi:type="archimate:Capability" name="Gestión financiera y contable" id="id-8e500a1852244b118026c0b4048f62be"/>
-    <element xsi:type="archimate:Capability" name="Facturación y cartera" id="id-0815424cfcec4d85844ace93bdfc58b0"/>
-    <element xsi:type="archimate:Capability" name="Gestión del talento humano" id="id-71c9527310de4cd09bb8c317134c6a49"/>
-    <element xsi:type="archimate:Capability" name="Gestión de tecnología de información" id="id-e1fe95682685439fa9580dee5f21bb89"/>
-    <element xsi:type="archimate:Capability" name="Gestión ambiental" id="id-d5017f9570cd4c769400eada887cbadb"/>
-    <element xsi:type="archimate:Resource" name="Paquetes estándar de medicamentos por cirugía (~180)" id="id-02a98eea95f84d1c83e646a0866601b4"/>
-    <element xsi:type="archimate:Resource" name="Histórico de consumos de urgencias (5 años)" id="id-f3718b7383c44749bff1bdd001dea947"/>
-    <element xsi:type="archimate:Resource" name="Químico farmacéutico" id="id-4b681686ae1449a2886c0dc183cf970a"/>
-    <element xsi:type="archimate:CourseOfAction" name="Control por lote con salida primero de lo que vence primero" id="id-64b3d2fb045f472483a11d617c9bd808"/>
-    <element xsi:type="archimate:CourseOfAction" name="Predicción con agenda quirúrgica e histórico, con aprobación humana" id="id-98be8e3d91454bf5b71d60504facd0ce"/>
-    <element xsi:type="archimate:ValueStream" name="Admitir al paciente" id="id-6e152aaba4174d7fab89addc0dc8bfab"/>
-    <element xsi:type="archimate:ValueStream" name="Diagnosticar" id="id-2b08015a9fef4629849a1d9d7da0c2b5"/>
-    <element xsi:type="archimate:ValueStream" name="Tratar al paciente" id="id-0dc7d26240dd446cb2252cdbf02b48d4"/>
-    <element xsi:type="archimate:ValueStream" name="Dar egreso al paciente" id="id-ead15011862d43a6ac3a00ba816eb482"/>
+    <element xsi:type="archimate:Capability" name="Recepción técnica" id="id-d8a4439a019b4a188c24fa9ebd15417a">
+      <documentation>Verificar lote, vencimiento, registro sanitario, estado y temperatura de lo recibido, con cuarentena hasta aprobar; unas 15 recepciones por día hábil. En el modelo, la aplicación la apoya a través de Gestión de inventario por lote (S07 y S08 registran y aprueban el lote). Fuente: entrevista 3.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Almacenamiento" id="id-3eb16f01f37c485e950f98ee9b013c2b">
+      <documentation>Ubicar y conservar los medicamentos: condiciones ambientales, nevera y custodia bajo llave. El control por ubicación se lleva en Gestión de inventario por lote; la cadena de frío y el control especial quedan fuera (X05, X06). Fuente: entrevista 3.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Distribución y dispensación" id="id-e1a0f5e699024e468654dbf7b571bd15">
+      <documentation>Reponer satélites, stocks de piso y carros de paro, y entregar el medicamento contra prescripción (unas 4.000 líneas al día, estimado). La dispensación sigue en el sistema hospitalario (X08); la aplicación recibe cada salida y la descuenta del lote (S13). Fuente: entrevista 3.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Farmacovigilancia" id="id-cf07b70e606546baba18c92d96f4e23f">
+      <documentation>Detectar y reportar al INVIMA los eventos adversos, con el lote del producto. Queda fuera del alcance: la hace calidad en su propio aplicativo (X13, análisis §4). Fuente: entrevista 2.2.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Compras y gestión de proveedores" id="id-23b11a68cea342b0a24b152459e91804">
+      <documentation>Decide a quién y a qué precio, emite la orden de compra y hace seguimiento a la entrega; unos 40 proveedores con contratos anuales. Recibe el requerimiento aprobado de la farmacia (E3 Gestión de compras). Fuente: entrevista 3.1 y 5.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Gestión financiera y contable" id="id-8e500a1852244b118026c0b4048f62be">
+      <documentation>Contabilidad de entradas, consumos y bajas en un sistema que no se puede modificar. Recibe las bajas por vencimiento (E5 Registro contable). Fuente: entrevista 3.3 y 6.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Facturación y cartera" id="id-0815424cfcec4d85844ace93bdfc58b0">
+      <documentation>Factura al asegurador lo dispensado menos lo devuelto y gestiona la cartera con las EPS. Queda fuera del alcance (análisis §4). Fuente: entrevista 3.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Gestión del talento humano" id="id-71c9527310de4cd09bb8c317134c6a49">
+      <documentation>Personal del hospital. Se relaciona con la restricción de no contratar personal adicional; la aplicación no la impacta. Fuente: entrevista 1.5.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Gestión de tecnología de información" id="id-e1fe95682685439fa9580dee5f21bb89">
+      <documentation>Área de sistemas: administra el sistema hospitalario y el contable y define cómo se intercambia la información con ellos (supuesto 1 del análisis). Le preocupa que le carguen otro sistema imposible de mantener. Fuente: entrevista 1.2.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Gestión ambiental" id="id-d5017f9570cd4c769400eada887cbadb">
+      <documentation>Gestión de residuos: lo vencido sale como residuo peligroso con un gestor autorizado. Ocurre después de la baja y queda fuera del alcance (X12, análisis §4). Fuente: entrevista 2.2.</documentation>
+    </element>
+    <element xsi:type="archimate:Resource" name="Paquetes estándar de medicamentos por cirugía (~180)" id="id-02a98eea95f84d1c83e646a0866601b4">
+      <documentation>Listados estándar de medicamentos por procedimiento (paquetes o canastas): unos 180, que cubren cerca del 85 % de las cirugías programadas; hoy están en Excel. Insumo de la demanda programada (S01, S04). Fuente: entrevista 5.2.</documentation>
+    </element>
+    <element xsi:type="archimate:Resource" name="Histórico de consumos de urgencias (5 años)" id="id-f3718b7383c44749bff1bdd001dea947">
+      <documentation>Unos 5 años de salidas diarias de la satélite de urgencias por referencia, sin lote. Insumo de la demanda no programada (S02). Subestima la demanda real porque lo que estuvo agotado no quedó registrado. Fuente: entrevista 5.2.</documentation>
+    </element>
+    <element xsi:type="archimate:Resource" name="Químico farmacéutico" id="id-4b681686ae1449a2886c0dc183cf970a">
+      <documentation>Profesional que revisa y aprueba la predicción y el requerimiento de compra. Se modela como recurso porque la capacidad lo necesita; el papel que ejecuta procesos es el rol Químico farmacéutico (V3). Fuente: entrevista 5.4.</documentation>
+    </element>
+    <element xsi:type="archimate:CourseOfAction" name="Control por lote con salida primero de lo que vence primero" id="id-64b3d2fb045f472483a11d617c9bd808">
+      <documentation>Enfoque elegido para atacar la causa raíz: registrar cada salida con su lote y que salga primero lo que vence primero. Se asocia a Gestión de inventario por lote y a Vigilancia de vencimientos.</documentation>
+    </element>
+    <element xsi:type="archimate:CourseOfAction" name="Predicción con agenda quirúrgica e histórico, con aprobación humana" id="id-98be8e3d91454bf5b71d60504facd0ce">
+      <documentation>Enfoque elegido para atacar la sobrecompra: predecir con la agenda quirúrgica y el histórico, y que un químico apruebe antes de pedir. Se asocia a Planeación de la demanda de medicamentos y a Generación de requerimientos de compra.</documentation>
+    </element>
+    <element xsi:type="archimate:ValueStream" name="Admitir al paciente" id="id-6e152aaba4174d7fab89addc0dc8bfab">
+      <documentation>Etapa del flujo de valor de atención integral al paciente: ingreso por urgencias, cirugía programada u hospitalización.</documentation>
+    </element>
+    <element xsi:type="archimate:ValueStream" name="Diagnosticar" id="id-2b08015a9fef4629849a1d9d7da0c2b5">
+      <documentation>Etapa del flujo de valor: valoración clínica con apoyo de laboratorio e imágenes.</documentation>
+    </element>
+    <element xsi:type="archimate:ValueStream" name="Tratar al paciente" id="id-0dc7d26240dd446cb2252cdbf02b48d4">
+      <documentation>Etapa del flujo de valor donde se usan los medicamentos: cirugía, hospitalización y urgencias. Es donde se ubica la aplicación: la capacidad Servicio farmacéutico le sirve y el servicio C1 Disponibilidad de medicamentos para la atención la realiza en parte.</documentation>
+    </element>
+    <element xsi:type="archimate:ValueStream" name="Dar egreso al paciente" id="id-ead15011862d43a6ac3a00ba816eb482">
+      <documentation>Última etapa del flujo de valor: alta del paciente. Genera devoluciones de lo dispensado y no usado, y la facturación al asegurador. Fuente: entrevista 3.1.</documentation>
+    </element>
   </folder>
   <folder name="Business" id="id-fe4fcfed0e5d43b3a3d0025ca47de599" type="business">
     <element xsi:type="archimate:BusinessProcess" name="Gestión de medicamentos (E2E)" id="id-588d75efc4f647eabef800869fc7be8c">
       <documentation>Proceso E2E con dos ciclos (abastecimiento y atención) y la vigilancia de vencimientos en paralelo a ambos.</documentation>
     </element>
-    <element xsi:type="archimate:BusinessProcess" name="Ciclo de abastecimiento" id="id-07627810a6254584a41b61d62121cba0"/>
-    <element xsi:type="archimate:BusinessProcess" name="Ciclo de atención" id="id-98ba994b98804401b19e850271954d42"/>
-    <element xsi:type="archimate:BusinessProcess" name="Vigilar vencimientos y retenciones de lotes" id="id-fdfb44ab2fb247069c2a79fef99d9753"/>
-    <element xsi:type="archimate:BusinessProcess" name="Planear la demanda" id="id-9d249a89cb134ed3957fc6e54c3fad5d"/>
-    <element xsi:type="archimate:BusinessProcess" name="Generar requerimiento de compra" id="id-330ad9cc51ef4c24871638241f7e24c6"/>
-    <element xsi:type="archimate:BusinessProcess" name="Recibir (recepción técnica)" id="id-9f0c58aa9ae240369335e2d071f6d982"/>
-    <element xsi:type="archimate:BusinessProcess" name="Almacenar" id="id-c0785ca47d1d4e20b33b6a0cabe4db10"/>
-    <element xsi:type="archimate:BusinessProcess" name="Distribuir" id="id-43ad561b83de48cb8b18c61744163078"/>
-    <element xsi:type="archimate:BusinessProcess" name="Dispensar" id="id-ae9f72d85b8c4df0aba63ecb0b26e54e"/>
-    <element xsi:type="archimate:BusinessProcess" name="Gestionar devoluciones" id="id-be3c8d79d10a497e996da53f234fae69"/>
-    <element xsi:type="archimate:BusinessEvent" name="Cirugías programadas en la agenda" id="id-86a80dd30166447ca8eee10d7a2affd4"/>
-    <element xsi:type="archimate:BusinessEvent" name="Existencia bajo el mínimo" id="id-b02e069d05ab4e209c5edd6f69242e5b"/>
-    <element xsi:type="archimate:BusinessEvent" name="Prescripción médica" id="id-4b277d9d86ee434493b342f5af221f1e"/>
-    <element xsi:type="archimate:BusinessEvent" name="Lote entra en alerta de vencimiento" id="id-d8e1bd9b63be4909a8f4c42e0df2067b"/>
-    <element xsi:type="archimate:BusinessEvent" name="Cirugía cancelada" id="id-f3f2cd06e18c43acbfd7e476293384ea"/>
-    <element xsi:type="archimate:BusinessEvent" name="Retiro de lote por el INVIMA" id="id-e964bbb6bb23493c9a7aca50cc03396a"/>
-    <element xsi:type="archimate:BusinessActor" name="Farmacia del hospital" id="id-09603e7ee9104059b28eaad169b717d0"/>
-    <element xsi:type="archimate:BusinessActor" name="Médicos" id="id-3ce7919681084170804443f4f3c5463e"/>
-    <element xsi:type="archimate:BusinessActor" name="Enfermería" id="id-418b271663414b57aae13416c24ceaf0"/>
-    <element xsi:type="archimate:BusinessActor" name="Compras" id="id-a179cc02cbef4221810c21bdc352b585"/>
-    <element xsi:type="archimate:BusinessActor" name="Proveedor" id="id-730e985a7ca045128d37e7adeada9f0f"/>
-    <element xsi:type="archimate:BusinessActor" name="INVIMA" id="id-b95718c4e1b3419383e0072dba9b026b"/>
-    <element xsi:type="archimate:BusinessRole" name="Químico farmacéutico" id="id-1f592a3c73d14ffe9bb8afbeb8673786"/>
+    <element xsi:type="archimate:BusinessProcess" name="Ciclo de abastecimiento" id="id-07627810a6254584a41b61d62121cba0">
+      <documentation>Planear la demanda, generar el requerimiento, recibir y almacenar. Lo mensual es planear y requerir; la recepción es diaria (unas 15 entregas por día hábil). Comprar ocurre entre requerir y recibir, pero lo hace compras y queda fuera. Fuente: entrevista 3.4 y 8.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Ciclo de atención" id="id-98ba994b98804401b19e850271954d42">
+      <documentation>Ciclo que gira cada día (cada minuto en urgencias): distribuir a satélites y stocks, dispensar y gestionar devoluciones. Administrar lo hacen enfermería y anestesia, y queda fuera. Fuente: entrevista 3.4.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Vigilar vencimientos y retenciones de lotes" id="id-fdfb44ab2fb247069c2a79fef99d9753">
+      <documentation>Proceso permanente, en paralelo a los dos ciclos: detecta lotes en alerta o retirados y decide priorizar, trasladar, apartar, frenar la compra, canjear, retener o dar de baja. Informa a la planeación (lotes por vencer) y a la distribución (prioridad de salida). Fuente: entrevista 3.4 y 5.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Planear la demanda" id="id-9d249a89cb134ed3957fc6e54c3fad5d">
+      <documentation>Estimar qué y cuánto se necesita: lo programado con la agenda × paquetes y lo no programado con el histórico. Hoy es el consumo promedio de 3 a 6 meses en Excel. Lo dispara la publicación de la agenda quirúrgica. Fuente: entrevista 5.2.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Generar requerimiento de compra" id="id-330ad9cc51ef4c24871638241f7e24c6">
+      <documentation>Calcular la cantidad neta y aprobarla; quien elabora no aprueba. Es ordinario (mensual, unas 600 líneas) o extraordinario, cuando algo baja del mínimo. Termina al entregarlo a compras. Fuente: entrevista 5.3 y 5.4.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Recibir (recepción técnica)" id="id-9f0c58aa9ae240369335e2d071f6d982">
+      <documentation>Revisar lote, vencimiento, registro sanitario, estado y temperatura; el lote queda en cuarentena hasta aprobarse, o se rechaza. La recepción administrativa contra orden y factura la hace almacén y queda fuera (X04). Fuente: entrevista 3.1 y 3.4.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Almacenar" id="id-c0785ca47d1d4e20b33b6a0cabe4db10">
+      <documentation>Ubicar el lote en la central o en su ubicación, con las condiciones que exige (nevera, custodia). Alimenta la distribución con el stock disponible. Fuente: entrevista 3.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Distribuir" id="id-43ad561b83de48cb8b18c61744163078">
+      <documentation>Reposición diaria a las satélites y semanal a stocks de piso y carros de paro (despacho, sin paciente asociado). Es donde se pierde la visibilidad del lote y donde se queda quieto buena parte de lo que se vence. Fuente: entrevista 3.1 y 3.4.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Dispensar" id="id-ae9f72d85b8c4df0aba63ecb0b26e54e">
+      <documentation>Entregar contra prescripción en cuatro modalidades: hospitalización (dosis de 24 horas), cirugía (paquete), urgencias (stock 24 horas y carros de paro) y ambulatoria. Se registra en el sistema hospitalario, hoy sin lote. Fuente: entrevista 3.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Gestionar devoluciones" id="id-be3c8d79d10a497e996da53f234fae69">
+      <documentation>Reingresar lo dispensado y no usado por alta, cambio de terapia, fallecimiento o cirugía cancelada; si está íntegro vuelve a su mismo lote. Entre el 20 y el 30 % de lo alistado para cirugía vuelve. No es la devolución al proveedor. Fuente: entrevista 3.1 y 8.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" name="Cirugías programadas en la agenda" id="id-86a80dd30166447ca8eee10d7a2affd4">
+      <documentation>Publicación de la programación quirúrgica: preliminar los viernes y definitiva a las 3 p. m. del día anterior. Dispara Planear la demanda. Fuente: entrevista 3.2.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" name="Existencia bajo el mínimo" id="id-b02e069d05ab4e209c5edd6f69242e5b">
+      <documentation>Una referencia baja del mínimo en la central o en una satélite. Dispara un requerimiento extraordinario; de ahí salen unas 18 compras urgentes al mes. Fuente: entrevista 3.2 y 5.3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" name="Prescripción médica" id="id-4b277d9d86ee434493b342f5af221f1e">
+      <documentation>El médico prescribe en el sistema hospitalario. Dispara la dispensación. Fuente: entrevista 3.2 y 8.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" name="Lote entra en alerta de vencimiento" id="id-d8e1bd9b63be4909a8f4c42e0df2067b">
+      <documentation>Un lote llega a 6, 3 o 1 mes de su fecha de vencimiento. Dispara la vigilancia; cada umbral avisa a personas distintas. Fuente: entrevista 3.2 y 5.4.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" name="Cirugía cancelada" id="id-f3f2cd06e18c43acbfd7e476293384ea">
+      <documentation>Cirugía cancelada o reprogramada; cerca del 6 % de las programadas cambia el mismo día (dato de cirugía por confirmar). Genera la devolución de lo alistado y libera lo apartado. Fuente: entrevista 3.2 y 8.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" name="Retiro de lote por el INVIMA" id="id-e964bbb6bb23493c9a7aca50cc03396a">
+      <documentation>Alerta sanitaria o retiro de un lote por el INVIMA o el fabricante. Hoy un químico revisa el portal una vez por semana. Dispara la retención del lote en todas sus ubicaciones. Fuente: entrevista 3.2 y 3.3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Farmacia del hospital" id="id-09603e7ee9104059b28eaad169b717d0">
+      <documentation>Servicio farmacéutico del Hospital Universitario Nueva Esperanza: central, satélites, farmacia ambulatoria, stocks de piso y carros de paro, con 4 químicos, 14 regentes y 22 auxiliares. Ejecuta el proceso E2E. Fuente: entrevista, presentación y 1.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Médicos" id="id-3ce7919681084170804443f4f3c5463e">
+      <documentation>Cirujanos, anestesiólogos, urgenciólogos e intensivistas. Prescriben y, con la coordinación de quirófanos, definen la agenda quirúrgica (E1). Fuente: entrevista 1.2 y 3.3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Enfermería" id="id-418b271663414b57aae13416c24ceaf0">
+      <documentation>Recibe los medicamentos distribuidos, administra y registra el consumo, devuelve lo no usado y cuida los stocks de piso y los carros de paro. Fuente: entrevista 1.2 y 3.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Compras" id="id-a179cc02cbef4221810c21bdc352b585">
+      <documentation>Área de compras y suministros: recibe el requerimiento aprobado y emite la orden de compra al proveedor. Fuente: entrevista 3.1 y 5.3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Proveedor" id="id-730e985a7ca045128d37e7adeada9f0f">
+      <documentation>Unos 40 proveedores con contratos anuales. Entregan en 5 a 8 días (importados, de 15 a 30) y unos 25 aceptan canje con aviso de 3 a 6 meses. Fuente: entrevista 3.1 y 5.1.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="INVIMA" id="id-b95718c4e1b3419383e0072dba9b026b">
+      <documentation>Autoridad sanitaria nacional. Publica alertas sanitarias y retiros de lotes, y recibe los reportes de farmacovigilancia. Fuente: entrevista 2.2 y 3.3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Químico farmacéutico" id="id-1f592a3c73d14ffe9bb8afbeb8673786">
+      <documentation>Planea la demanda, elabora y aprueba requerimientos, valida la prescripción y confirma retenciones y bajas. Aprueba lo que registra el regente: quien elabora no aprueba. Fuente: entrevista 3.1 y 5.4.</documentation>
+    </element>
     <element xsi:type="archimate:BusinessService" name="Disponibilidad de medicamentos para la atención" id="id-6d3051cc86bf4f9696b532b9da07047d">
       <documentation>Servicio que presta la gestión de medicamentos completa al flujo de valor Tratar al paciente: el medicamento correcto, disponible y vigente.</documentation>
       <property key="codigo" value="C1"/>
@@ -1288,36 +1398,96 @@
     </element>
   </folder>
   <folder name="Motivation" id="id-4f908b051e6649b2bcea2367578c8d34" type="motivation">
-    <element xsi:type="archimate:Stakeholder" name="Servicio farmacéutico" id="id-b3a3b8a785014acf895aaef54b3afeaf"/>
-    <element xsi:type="archimate:Stakeholder" name="Gerencia y dirección financiera" id="id-0f996783eb0a4fa2a61e9fd31259ce21"/>
-    <element xsi:type="archimate:Stakeholder" name="Médicos" id="id-ef362bbf4d5645949094fdd46a7e3156"/>
-    <element xsi:type="archimate:Stakeholder" name="Enfermería" id="id-a98ed3fbc6d846e693226f8b9ad43e66"/>
-    <element xsi:type="archimate:Stakeholder" name="Compras" id="id-c6a8230e9a8842cab3081d429da3a726"/>
-    <element xsi:type="archimate:Driver" name="Pérdida creciente por vencimientos ($190 M → $310 M en dos años)" id="id-6b33e2311048477490fc2e2312832429"/>
-    <element xsi:type="archimate:Driver" name="Hallazgo de la Secretaría de Salud: vencidos en carro de paro" id="id-117b065d78924777849376fe91acefee"/>
-    <element xsi:type="archimate:Driver" name="Presión de caja por cartera con las EPS" id="id-245b62b0d1eb48199203acbbbe5d7504"/>
-    <element xsi:type="archimate:Driver" name="Acreditación en salud" id="id-880c1ed90acb44be8e52de9e7a00b5e5"/>
-    <element xsi:type="archimate:Assessment" name="Las salidas no registran de qué lote salen (causa raíz)" id="id-cd4225ebee4a4d40a2783bb75b3a1a58"/>
-    <element xsi:type="archimate:Assessment" name="Se compra con promedios y hay sobrestock (40 % de vencidos)" id="id-ad56b35b619e467aab396d0b8b1cb841"/>
-    <element xsi:type="archimate:Assessment" name="Producto quieto en los servicios (25 % de vencidos)" id="id-97bb2164ae764e38bc3ba0460a6b197c"/>
-    <element xsi:type="archimate:Assessment" name="Llega producto con poca vida útil (20 % de vencidos)" id="id-152ca1c49159418db5770e39a8c9be46"/>
-    <element xsi:type="archimate:Assessment" name="Cambios de protocolo dejan producto sin uso (15 % de vencidos)" id="id-3bb04fc401c948748ef69ba0e1e7620e"/>
-    <element xsi:type="archimate:Assessment" name="Agotados y compras urgentes" id="id-d1756cc76d054db4aa9b68deffd897d9"/>
-    <element xsi:type="archimate:Goal" name="Garantizar la disponibilidad de medicamentos y reducir los vencidos a menos del 0,4 % de las compras en 12 meses" id="id-3b2117836e0d4e56b63f537920174a0c"/>
-    <element xsi:type="archimate:Outcome" name="Vencidos ≤ 0,4 % de las compras" id="id-9a598731bd754e0496251701a1bd2479"/>
-    <element xsi:type="archimate:Outcome" name="100 % de las salidas con lote" id="id-a6e5877ca36e41c49a46b36a3c69176a"/>
-    <element xsi:type="archimate:Outcome" name="≥ 80 % de los lotes en alerta usados antes de vencer" id="id-114a7a16ce1d44948f3d5741e3a3043e"/>
-    <element xsi:type="archimate:Outcome" name="Máximo 6 compras urgentes al mes" id="id-67fa7f68a3cf463f98fb00cb9d6c24f4"/>
-    <element xsi:type="archimate:Principle" name="La seguridad del paciente va primero" id="id-d574b0ca99834f76ae73497a4b8a85de"/>
-    <element xsi:type="archimate:Principle" name="La disponibilidad pesa más que el ahorro" id="id-561c2573cbd14f0bbba51e39cac1a560"/>
-    <element xsi:type="archimate:Principle" name="Sale primero lo que vence primero" id="id-b162f4774dd140769b0064366f7bba7a"/>
-    <element xsi:type="archimate:Principle" name="El sistema recomienda y la persona decide" id="id-86d8296220e94bc5b2aae9012f6b5e63"/>
-    <element xsi:type="archimate:Requirement" name="Controlar el inventario por lote, ubicación y fecha de vencimiento" id="id-91b8a499b3714819b35b2145218ed89e"/>
-    <element xsi:type="archimate:Requirement" name="Alertar a 6, 3 y 1 mes del vencimiento y priorizar el uso de esos lotes" id="id-92d2ef930f9d407dbbae903a85586dff"/>
-    <element xsi:type="archimate:Requirement" name="Predecir la demanda programada (agenda × paquetes por cirugía) y no programada (histórico de urgencias)" id="id-686ec702ab344ea982fe74ae90899156"/>
-    <element xsi:type="archimate:Requirement" name="Generar requerimientos de compra descontando lo que vencerá antes de usarse" id="id-a4e1175e6ab9427295274d6d2fa6cea3"/>
-    <element xsi:type="archimate:Constraint" name="Sin personal adicional" id="id-ec0c4177fb3c4e06aefa33471ac87504"/>
-    <element xsi:type="archimate:Constraint" name="Los sistemas hospitalario y contable no se pueden modificar" id="id-c2f2cad6fa124c08848b13547fa7a264"/>
+    <element xsi:type="archimate:Stakeholder" name="Servicio farmacéutico" id="id-b3a3b8a785014acf895aaef54b3afeaf">
+      <documentation>Director, químicos farmacéuticos, regentes y auxiliares de la farmacia (4 químicos, 14 regentes y 22 auxiliares). Les preocupan el control por lote, la trazabilidad y el trabajo manual: hoy la revisión de vencimientos ocupa a 6 personas durante 2 días al mes. Fuente: entrevista, presentación, 1.2 y 1.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Gerencia y dirección financiera" id="id-0f996783eb0a4fa2a61e9fd31259ce21">
+      <documentation>Gerencia y subgerencia financiera. Les preocupan la pérdida por vencimiento y el capital inmovilizado en inventario ($4.200 M, unos 55 días). Revisan vencidos, valor del inventario y compras urgentes cada trimestre. Fuente: entrevista 1.2 y 2.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Médicos" id="id-ef362bbf4d5645949094fdd46a7e3156">
+      <documentation>Cirujanos, anestesiólogos, urgenciólogos e intensivistas. Les preocupa la disponibilidad inmediata; el inventario no es su problema. El último año hubo 11 cirugías aplazadas por falta de un medicamento (dato por confirmar con cirugía). Fuente: entrevista 1.2 y 1.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Enfermería" id="id-a98ed3fbc6d846e693226f8b9ad43e66">
+      <documentation>Enfermería de hospitalización, UCI y urgencias. Quiere recibir completo y a tiempo, devolver fácil y no cargar con los stocks de piso y los carros de paro, donde la Secretaría de Salud encontró vencidos. Fuente: entrevista 1.2 y 1.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Compras" id="id-c6a8230e9a8842cab3081d429da3a726">
+      <documentation>Compras y suministros. Quiere requerimientos planeados y menos compras urgentes, pero presiona a pedir más para ganar descuentos por volumen, y parte de eso termina vencido. Fuente: entrevista 1.2 y 5.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Pérdida creciente por vencimientos ($190 M → $310 M en dos años)" id="id-6b33e2311048477490fc2e2312832429">
+      <documentation>La pérdida por vencimiento pasó de unos $190 M hace dos años a $310 M el último año, cerca del 1,1 % de las compras (unos $2.300 M al mes). Lo que se vence no se le factura a nadie: es pérdida directa. Fuente: entrevista 1.1 y 1.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Hallazgo de la Secretaría de Salud: vencidos en carro de paro" id="id-117b065d78924777849376fe91acefee">
+      <documentation>La Secretaría de Salud encontró medicamentos vencidos en un carro de paro de hospitalización. El hospital está en plan de mejora y la visita de seguimiento es en unos 8 meses. Fuente: entrevista 1.3 y 1.5.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Presión de caja por cartera con las EPS" id="id-245b62b0d1eb48199203acbbbe5d7504">
+      <documentation>La cartera con las EPS aprieta la caja y el hospital no puede tener plata quieta en estantería. Fuente: entrevista 1.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Acreditación en salud" id="id-880c1ed90acb44be8e52de9e7a00b5e5">
+      <documentation>La gerencia quiere la acreditación en salud. El experto la menciona junto con la apertura de 2 quirófanos hace 18 meses. Fuente: entrevista 1.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Assessment" name="Las salidas no registran de qué lote salen (causa raíz)" id="id-cd4225ebee4a4d40a2783bb75b3a1a58">
+      <documentation>Causa raíz. El lote y la fecha se digitan al recibir, pero la salida no obliga a escoger lote, así que al mes el sistema no coincide con la estantería (unos 82 % de coincidencia por referencia; por lote no se mide). Sin saber qué lote hay, dónde y cuándo vence, ni la alerta ni la predicción funcionan. Fuente: entrevista 1.3, 2.1 y 8.2.</documentation>
+    </element>
+    <element xsi:type="archimate:Assessment" name="Se compra con promedios y hay sobrestock (40 % de vencidos)" id="id-ad56b35b619e467aab396d0b8b1cb841">
+      <documentation>Sobrecompra por pedir con el consumo promedio de 3 a 6 meses y 'a ojo', sin separar la demanda programada de la no programada. Explica el 40 % de lo vencido según las actas de baja (estimado del experto). Justifica la predicción (R3) y el requerimiento de compra (R4). Fuente: entrevista 1.3, 5.2 y validación del bloque 1.</documentation>
+    </element>
+    <element xsi:type="archimate:Assessment" name="Producto quieto en los servicios (25 % de vencidos)" id="id-97bb2164ae764e38bc3ba0460a6b197c">
+      <documentation>Stock quieto en satélites, stocks de piso y carros de paro que nadie rota; esos lotes se detectan cuando les quedan entre 1 y 3 meses. Explica el 25 % de lo vencido (estimado del experto). Justifica el control por ubicación y los traslados. Fuente: entrevista 1.3 y 5.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Assessment" name="Llega producto con poca vida útil (20 % de vencidos)" id="id-152ca1c49159418db5770e39a8c9be46">
+      <documentation>Producto que llega con vida útil corta. Explica el 20 % de lo vencido (estimado del experto). Justifica la regla de vida útil mínima al recibir (12 meses, o el 75 % si es de vida corta), que es práctica del hospital y no norma. Fuente: entrevista 1.3, 2.2 y 8.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Assessment" name="Cambios de protocolo dejan producto sin uso (15 % de vencidos)" id="id-3bb04fc401c948748ef69ba0e1e7620e">
+      <documentation>Cambios de protocolo o de preferencia médica dejan producto sin uso. Explica el 15 % de lo vencido (estimado del experto). La alerta a 6 meses da tiempo para trasladar, apartar o canjear ese producto. Fuente: entrevista 1.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Assessment" name="Agotados y compras urgentes" id="id-d1756cc76d054db4aa9b68deffd897d9">
+      <documentation>La otra cara del problema: unas 35 de las 1.150 referencias llegan a cero en algún momento del mes y hay unas 18 compras urgentes al mes con sobrecosto del 15 al 30 %. La demanda no atendida no se registra. Sustenta la parte de disponibilidad de la meta. Fuente: entrevista 1.3 y validación del bloque 1.</documentation>
+    </element>
+    <element xsi:type="archimate:Goal" name="Garantizar la disponibilidad de medicamentos y reducir los vencidos a menos del 0,4 % de las compras en 12 meses" id="id-3b2117836e0d4e56b63f537920174a0c">
+      <documentation>Meta principal, como la planteó el experto: la disponibilidad segura es la condición y la reducción de vencimientos es el objetivo dentro de ella. Bajar de 1,1 % de las compras (unos $310 M al año) a menos del 0,4 % (unos $110 M) en 12 meses. Fuente: entrevista 1.4, 1.6 y validación del bloque 1.</documentation>
+    </element>
+    <element xsi:type="archimate:Outcome" name="Vencidos ≤ 0,4 % de las compras" id="id-9a598731bd754e0496251701a1bd2479">
+      <documentation>Valor vencido sobre valor comprado; hoy es 1,1 %. La aplicación aporta el valor dado de baja por vencimiento (S20) y financiera lo completa con el valor de compras del periodo. Fuente: entrevista 1.4.</documentation>
+    </element>
+    <element xsi:type="archimate:Outcome" name="100 % de las salidas con lote" id="id-a6e5877ca36e41c49a46b36a3c69176a">
+      <documentation>Hoy solo la entrada se registra con lote. Se logra con S13, que descuenta cada salida del lote que vence primero, y se mide con S20. Fuente: entrevista 1.4.</documentation>
+    </element>
+    <element xsi:type="archimate:Outcome" name="≥ 80 % de los lotes en alerta usados antes de vencer" id="id-114a7a16ce1d44948f3d5741e3a3043e">
+      <documentation>Unidades de lotes en alerta que se usan antes de vencer; hoy no se mide. Lo calcula S20 con las alertas de vencimiento y los movimientos con lote. Fuente: entrevista 1.4.</documentation>
+    </element>
+    <element xsi:type="archimate:Outcome" name="Máximo 6 compras urgentes al mes" id="id-67fa7f68a3cf463f98fb00cb9d6c24f4">
+      <documentation>Hoy son unas 18 compras urgentes al mes, con sobrecosto del 15 al 30 %. Mide la disponibilidad y el acierto de la planeación; el dato lo reporta compras. Fuente: entrevista 1.4 y 2.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="La seguridad del paciente va primero" id="id-d574b0ca99834f76ae73497a4b8a85de">
+      <documentation>Nunca sale un vencido, un lote en cuarentena ni uno retirado. Lo realizan las decisiones de negocio del canvas (V11) sobre lotes vencidos y retenidos. Fuente: entrevista 1.5.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="La disponibilidad pesa más que el ahorro" id="id-561c2573cbd14f0bbba51e39cac1a560">
+      <documentation>Ninguna regla puede dejar una urgencia sin medicamento. Es el principio que desempata cuando los otros chocan. Fuente: entrevista 1.5 y validación del bloque 1.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Sale primero lo que vence primero" id="id-b162f4774dd140769b0064366f7bba7a">
+      <documentation>Primero en vencer, primero en salir (FEFO). Además de práctica del hospital, lo exige la Resolución 1403 de 2007: 'que el lote más próximo a vencerse sea lo primero en dispensarse' (Manual de Condiciones Esenciales, Título I, Capítulo II, numeral 1.1, literal i). Fuente: entrevista 1.5 y normograma del INVIMA.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="El sistema recomienda y la persona decide" id="id-86d8296220e94bc5b2aae9012f6b5e63">
+      <documentation>La predicción y el requerimiento los aprueba un químico farmacéutico, y quien elabora no aprueba. Por eso las decisiones de la aplicación terminan en una aprobación humana (S03, S06, S16). Fuente: entrevista 1.5 y 5.4.</documentation>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Controlar el inventario por lote, ubicación y fecha de vencimiento" id="id-91b8a499b3714819b35b2145218ed89e">
+      <documentation>R1, primer punto del alcance del enunciado: inventario por lote, vencimiento, ubicación y estado, con bloqueo de lo no apto. Lo realiza la capacidad Gestión de inventario por lote y, en aplicación, el dominio central Control de lotes y vencimientos. Fuente: enunciado y entrevista 1.5.</documentation>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Alertar a 6, 3 y 1 mes del vencimiento y priorizar el uso de esos lotes" id="id-92d2ef930f9d407dbbae903a85586dff">
+      <documentation>R2, segundo punto del alcance. Alertas fijas a 6, 3 y 1 mes (simplificación del equipo: el experto pidió anticipación ajustable, análisis §3). La de 6 meses es la que piden los proveedores para aceptar un canje. Lo realiza la capacidad Vigilancia de vencimientos. Fuente: entrevista 5.1 y 8.1.</documentation>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Predecir la demanda programada (agenda × paquetes por cirugía) y no programada (histórico de urgencias)" id="id-686ec702ab344ea982fe74ae90899156">
+      <documentation>R3, tercer punto del alcance ('a partir de la programación y de modelos de análisis histórico'). Lo programado sale de la agenda quirúrgica × paquetes por cirugía y lo no programado del promedio del histórico de urgencias (simplificación, análisis §3). Lo realiza la capacidad Planeación de la demanda de medicamentos. Fuente: entrevista 5.2.</documentation>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Generar requerimientos de compra descontando lo que vencerá antes de usarse" id="id-a4e1175e6ab9427295274d6d2fa6cea3">
+      <documentation>R4, cuarto punto del alcance. Cantidad neta = consumo × tiempo a cubrir − existencias − lo que viene en camino − lo que vencerá antes de usarse. No reemplaza a compras: farmacia dice qué y cuánto. Lo realiza la capacidad Generación de requerimientos de compra. Fuente: entrevista 5.3.</documentation>
+    </element>
+    <element xsi:type="archimate:Constraint" name="Sin personal adicional" id="id-ec0c4177fb3c4e06aefa33471ac87504">
+      <documentation>No hay presupuesto para contratar personal, y de noche urgencias queda con 1 regente y 1 auxiliar. Por eso las alertas y la predicción son automáticas y solo la decisión queda en una persona. Fuente: entrevista 1.5.</documentation>
+    </element>
+    <element xsi:type="archimate:Constraint" name="Los sistemas hospitalario y contable no se pueden modificar" id="id-c2f2cad6fa124c08848b13547fa7a264">
+      <documentation>El sistema hospitalario (historia clínica, prescripción, facturación e inventario) y el contable son de proveedores externos y no se pueden modificar. Justifica la capa anticorrupción (V4.2, V8, V9) y que la dispensación siga en el sistema hospitalario. Fuente: entrevista 1.5 y 6.1.</documentation>
+    </element>
     <element xsi:type="archimate:Meaning" name="Control de lotes: reposición de una satélite a la central" id="id-1c3dff5635c94f6c8ff48516aaf2f04c">
       <documentation>Lo que una satélite le pide a la central. En el modelo se dice despacho o reposición, no pedido.</documentation>
       <property key="termino" value="Pedido"/>
@@ -2337,7 +2507,6 @@
     <element xsi:type="archimate:RealizationRelationship" id="id-1a0e7b355bad417b89042a511ff48ec5" source="id-8458833a87004bc4afb2910b843c6f0f" target="id-86d8296220e94bc5b2aae9012f6b5e63"/>
   </folder>
   <folder name="Views" id="id-af85f63e00104d6b95b2e94a66dbb663" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-5d230419803b455da1009e99016adf2d"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="V1 - Motivación" id="id-7c8e8b4de3a847d8bffe5acbb505ae93" viewpoint="motivation">
       <child xsi:type="archimate:DiagramObject" id="id-c9d87cae904d4b958733b2798f2181c7" archimateElement="id-a98ed3fbc6d846e693226f8b9ad43e66">
         <bounds x="40" y="40" width="200" height="75"/>

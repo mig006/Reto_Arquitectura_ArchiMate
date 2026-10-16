@@ -94,10 +94,12 @@ El enunciado propone seis interoperabilidades. Así quedaron después de la entr
 ## 6. Contraste con otras fuentes
 
 - **Enunciado del tema:** comparamos cada hallazgo contra los cuatro puntos del alcance. Lo que no apoya ninguno quedó en la sección 4.
-- **Normatividad:** el experto pidió verificar varias normas. Solo revisamos las que usamos en el diseño:
-  - [ ] Resolución 1403 de 2007: recepción técnica y control de vencimientos. *(verificar en el normograma del INVIMA)*
-  - [ ] Decreto 780 de 2016: compila el Decreto 2200 de 2005. *(verificar)*
-  - [ ] Resolución 1732 de 2026: el experto dice que reemplazó a la Resolución 3100 de 2019 en habilitación. *(verificar en MinSalud)*
+- **Normatividad:** el experto pidió verificar varias normas. Revisamos en fuentes oficiales las que usamos en el diseño (consulta del 15 de octubre de 2026):
+  - [x] **Resolución 1403 de 2007** (Modelo de Gestión del Servicio Farmacéutico y Manual de Condiciones Esenciales y Procedimientos). **Confirmada y vigente.** Respalda el principio FEFO: el almacenamiento debe garantizar "que el lote más próximo a vencerse sea lo primero en dispensarse" (Manual, Título I, Capítulo II, numeral 1.1, literal i). También exige un área para los medicamentos que se deben destruir por vencimiento o deterioro. Fuente: [normograma del INVIMA](https://normograma.invima.gov.co/compilacion/docs/resolucion_minproteccion_1403_2007.htm).
+  - [x] **Decreto 780 de 2016.** **Confirmado:** compila el Decreto 2200 de 2005 a partir del artículo 2.5.3.10.1, y la recepción y el almacenamiento están entre los procesos del servicio farmacéutico (artículo 2.5.3.10.14). Fuente: [Decreto 2200 de 2005 con notas de compilación (normograma del INVIMA)](https://normograma.invima.gov.co/compilacion/docs/decreto_2200_2005.htm).
+  - [x] **Resolución 1732 de 2026.** **El dato del experto no es correcto.** Se firmó el 5 de agosto de 2026 para reemplazar la Resolución 3100 de 2019, pero la **Resolución 2080 del 8 de septiembre de 2026** la revocó en su integridad porque no se publicó en el Diario Oficial. La norma de habilitación vigente sigue siendo la **Resolución 3100 de 2019** con sus modificaciones. La revocatoria es anterior a la entrevista, así que la IA dio un dato desactualizado. Fuentes: [Resolución 2080 de 2026 (Régimen Legal de Bogotá)](https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?dt=S&i=194230) y [Consultorsalud](https://consultorsalud.com/minsalud-revoca-la-resolucion-1732-de-2026-asi-quedan-las-reglas-de-habilitacion-para-prestadores-de-servicios-de-salud/).
+
+  **Cómo influyó en el diseño:** FEFO deja de ser solo una práctica del hospital y queda respaldado por la norma (principio de la V1 y servicio de dominio *Elegir el lote que vence primero* de la V6.1). La revocatoria de la 1732 no cambia el diseño: la habilitación no está en el alcance y solo era el contexto del hallazgo de la Secretaría de Salud.
 
   Las normas que no usamos (control especial, residuos, farmacovigilancia) no se verificaron porque quedaron fuera del alcance.
 - **Datos que el experto marcó como estimados:** las cirugías aplazadas, el presupuesto de $450 M y el 93 % de entregas completas. Los usamos solo como referencia en la vista de Motivación, sin tratarlos como datos confirmados.
